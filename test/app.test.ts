@@ -12,13 +12,7 @@ describe('app e2e测试', () => {
         })
     })
     after(done => {
-        server.close(err => {
-            if (err) {
-                done(err)
-                return
-            }
-            done()
-        })
+        server.close(done)
     })
     it('状态路由，应该成功返回当前状态', done => {
         request(server).get('/status').expect(200, (err, res) => {
@@ -31,23 +25,9 @@ describe('app e2e测试', () => {
         })
     })
     it('应该成功捕捉到 400 HttpError ', done => {
-        request(server).get('/test/?status=400&httpError=true').expect(400, (err, res) => {
-            if (err) {
-                done(err)
-                return
-            }
-            should(res.status === 400).ok()
-            done()
-        })
+        request(server).get('/test/?status=400&httpError=true').expect(400, done)
     })
     it.skip('应该成功捕捉到 Error ', done => {
-        request(server).get('/test/?error=true').expect(500, (err, res) => {
-            if (err) {
-                done(err)
-                return
-            }
-            should(res.status === 500).ok()
-            done()
-        })
+        request(server).get('/test/?error=true').expect(500, done)
     })
 })
