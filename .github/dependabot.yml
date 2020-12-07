@@ -12,3 +12,7 @@ updates:
           interval: "daily"
           time: "19:00"
           timezone: "Asia/Shanghai"
+      ignore:
+          - dependency-name: "@koa/router"
+            versions:
+                - ">= 9.0.0"
