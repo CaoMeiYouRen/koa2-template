@@ -8,7 +8,7 @@ import serve from 'koa-static'
 import cacheControl from 'koa-cache-control'
 import {
     appLogger, catchError,
-    limiter, timeout
+    limiter, timeout,
 } from './middleware'
 import routes from './routes'
 import { ROOT_URL, STATIC_MAX_AGE } from './config'
@@ -31,7 +31,7 @@ const pubicPath = path.join(__dirname, '../public')
 if (fs.pathExistsSync(pubicPath)) {
     // public 并非必须，如果有则挂载
     app.use(serve(pubicPath, {
-        maxAge: STATIC_MAX_AGE * 1000
+        maxAge: STATIC_MAX_AGE * 1000,
     }))
 }
 

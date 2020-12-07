@@ -315,7 +315,7 @@
     "@types/bson" "*"
     "@types/node" "*"
 
-"@types/mongoose@*":
+"@types/mongoose@*", "@types/mongoose@^5.10.2":
   version "5.10.2"
   resolved "https://registry.npm.taobao.org/@types/mongoose/download/@types/mongoose-5.10.2.tgz#761d73b78caaa2c4c745ab4fcca4cb976e3fad1e"
   integrity sha1-dh1zt4yqosTHRatPzKTLl24/rR4=
@@ -1085,7 +1085,7 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-cmyr@^1.0.1:
+eslint-config-cmyr@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/eslint-config-cmyr/download/eslint-config-cmyr-1.0.2.tgz#99b256112e8213a5229b9064df7161f67926e5ae"
   integrity sha1-mbJWES6CE6Uim5Bk33Fh9nkm5a4=
@@ -2013,7 +2013,7 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.npm.taobao.org/mongoose-legacy-pluralize/download/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=
 
-mongoose@^5.5.13:
+mongoose@^5.11.4, mongoose@^5.5.13:
   version "5.11.4"
   resolved "https://registry.npm.taobao.org/mongoose/download/mongoose-5.11.4.tgz#26c6be85bee47446570281f90331762751d8b995"
   integrity sha1-Jsa+hb7kdEZXAoH5AzF2J1HYuZU=
@@ -2941,10 +2941,10 @@ ts-node-dev@^1.0.0:
     ts-node "^9.0.0"
     tsconfig "^7.0.0"
 
-ts-node@^9.0.0:
-  version "9.1.0"
-  resolved "https://registry.npm.taobao.org/ts-node/download/ts-node-9.1.0.tgz?cache=0&sync_timestamp=1606977655310&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fts-node%2Fdownload%2Fts-node-9.1.0.tgz#95eae4c6d0f94f2545884078e1eb1b14d2155639"
-  integrity sha1-lerkxtD5TyVFiEB44esbFNIVVjk=
+ts-node@^9.0.0, ts-node@^9.1.1:
+  version "9.1.1"
+  resolved "https://registry.npm.taobao.org/ts-node/download/ts-node-9.1.1.tgz?cache=0&sync_timestamp=1607350688066&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fts-node%2Fdownload%2Fts-node-9.1.1.tgz#51a9a450a3e959401bda5f004a72d54b936d376d"
+  integrity sha1-UamkUKPpWUAb2l8ASnLVS5NtN20=
   dependencies:
     arg "^4.1.0"
     create-require "^1.1.0"

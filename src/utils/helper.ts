@@ -59,7 +59,7 @@ export const Log = {
      */
     error(msg: any) {
         console.error(`${colors.yellow(timeFormat(Date.now(), 'HH:mm:ss.SSS'))}:`, colors.red(msg))
-    }
+    },
 }
 
 /**
@@ -77,7 +77,7 @@ export function timeFromNow(time: number) {
         { name: 's', len: 60 },
         { name: 'min', len: 60 },
         { name: 'h', len: 24 },
-        { name: 'day', len: Infinity }
+        { name: 'day', len: Infinity },
     ]
     for (let i = 0; i < arr.length; i++) {
         if (time < arr[i].len) {

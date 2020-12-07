@@ -35,7 +35,7 @@ export async function ajax(option: AjaxConfig = new AjaxConfig()): Promise<Axios
             headers,
             params: query,
             data,
-            timeout: 10000
+            timeout: 10000,
         })
         return result
     } catch (error) {
