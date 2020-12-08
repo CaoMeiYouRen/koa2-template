@@ -86,11 +86,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/bluebird@*":
-  version "3.5.33"
-  resolved "https://registry.npm.taobao.org/@types/bluebird/download/@types/bluebird-3.5.33.tgz?cache=0&sync_timestamp=1605052467690&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fbluebird%2Fdownload%2F%40types%2Fbluebird-3.5.33.tgz#d79c020f283bd50bd76101d7d300313c107325fc"
-  integrity sha1-15wCDyg71QvXYQHX0wAxPBBzJfw=
-
 "@types/body-parser@*":
   version "1.19.0"
   resolved "https://registry.npm.taobao.org/@types/body-parser/download/@types/body-parser-1.19.0.tgz?cache=0&sync_timestamp=1605052849660&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fbody-parser%2Fdownload%2F%40types%2Fbody-parser-1.19.0.tgz#0685b3c47eb3006ffed117cdd55164b61f80538f"
@@ -124,13 +119,6 @@
   version "0.5.3"
   resolved "https://registry.npm.taobao.org/@types/content-disposition/download/@types/content-disposition-0.5.3.tgz#0aa116701955c2faa0717fc69cd1596095e49d96"
   integrity sha1-CqEWcBlVwvqgcX/GnNFZYJXknZY=
-
-"@types/continuation-local-storage@*":
-  version "3.2.2"
-  resolved "https://registry.npm.taobao.org/@types/continuation-local-storage/download/@types/continuation-local-storage-3.2.2.tgz?cache=0&sync_timestamp=1605052927397&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fcontinuation-local-storage%2Fdownload%2F%40types%2Fcontinuation-local-storage-3.2.2.tgz#7cbf177a6206ece87bc4b808784772ad2aa5f6db"
-  integrity sha1-fL8XemIG7Oh7xLgIeEdyrSql9ts=
-  dependencies:
-    "@types/node" "*"
 
 "@types/cookiejar@*":
   version "2.1.2"
@@ -249,16 +237,6 @@
     "@types/koa" "*"
     "@types/koa-send" "*"
 
-"@types/koa2-ratelimit@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.npm.taobao.org/@types/koa2-ratelimit/download/@types/koa2-ratelimit-0.9.0.tgz#32a284d40672b9e46fefe6e8f190ab287e2ae4bc"
-  integrity sha1-MqKE1AZyueRv7+bo8ZCrKH4q5Lw=
-  dependencies:
-    "@types/koa" "*"
-    "@types/mongoose" "*"
-    "@types/redis" "*"
-    "@types/sequelize" "*"
-
 "@types/koa@*", "@types/koa@^2.11.6":
   version "2.11.6"
   resolved "https://registry.npm.taobao.org/@types/koa/download/@types/koa-2.11.6.tgz?cache=0&sync_timestamp=1605054034293&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fkoa%2Fdownload%2F%40types%2Fkoa-2.11.6.tgz#b7030caa6b44af801c2aea13ba77d74aff7484d5"
@@ -287,7 +265,7 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/lodash@*", "@types/lodash@^4.14.165":
+"@types/lodash@^4.14.165":
   version "4.14.165"
   resolved "https://registry.npm.taobao.org/@types/lodash/download/@types/lodash-4.14.165.tgz#74d55d947452e2de0742bad65270433b63a8c30f"
   integrity sha1-dNVdlHRS4t4HQrrWUnBDO2Ooww8=
@@ -307,20 +285,12 @@
   resolved "https://registry.npm.taobao.org/@types/module-alias/download/@types/module-alias-2.0.0.tgz#882668f8b8cdbda44812c3b592c590909e18849e"
   integrity sha1-iCZo+LjNvaRIEsO1ksWQkJ4YhJ4=
 
-"@types/mongodb@*", "@types/mongodb@^3.5.27":
+"@types/mongodb@^3.5.27":
   version "3.6.1"
   resolved "https://registry.npm.taobao.org/@types/mongodb/download/@types/mongodb-3.6.1.tgz#4d30e4a1506446df0f9157eaf969ac694fa0771e"
   integrity sha1-TTDkoVBkRt8PkVfq+WmsaU+gdx4=
   dependencies:
     "@types/bson" "*"
-    "@types/node" "*"
-
-"@types/mongoose@*", "@types/mongoose@^5.10.2":
-  version "5.10.2"
-  resolved "https://registry.npm.taobao.org/@types/mongoose/download/@types/mongoose-5.10.2.tgz#761d73b78caaa2c4c745ab4fcca4cb976e3fad1e"
-  integrity sha1-dh1zt4yqosTHRatPzKTLl24/rR4=
-  dependencies:
-    "@types/mongodb" "*"
     "@types/node" "*"
 
 "@types/morgan@^1.9.2":
@@ -349,23 +319,6 @@
   version "1.2.3"
   resolved "https://registry.npm.taobao.org/@types/range-parser/download/@types/range-parser-1.2.3.tgz?cache=0&sync_timestamp=1605055212833&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Frange-parser%2Fdownload%2F%40types%2Frange-parser-1.2.3.tgz#7ee330ba7caafb98090bece86a5ee44115904c2c"
   integrity sha1-fuMwunyq+5gJC+zoal7kQRWQTCw=
-
-"@types/redis@*":
-  version "2.8.28"
-  resolved "https://registry.npm.taobao.org/@types/redis/download/@types/redis-2.8.28.tgz#5862b2b64aa7f7cbc76dafd7e6f06992b52c55e3"
-  integrity sha1-WGKytkqn98vHba/X5vBpkrUsVeM=
-  dependencies:
-    "@types/node" "*"
-
-"@types/sequelize@*":
-  version "4.28.9"
-  resolved "https://registry.npm.taobao.org/@types/sequelize/download/@types/sequelize-4.28.9.tgz?cache=0&sync_timestamp=1605057186545&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fsequelize%2Fdownload%2F%40types%2Fsequelize-4.28.9.tgz#64d0fad07de2f30ef11003a8c2ef5ac0321de115"
-  integrity sha1-ZND60H3i8w7xEAOowu9awDId4RU=
-  dependencies:
-    "@types/bluebird" "*"
-    "@types/continuation-local-storage" "*"
-    "@types/lodash" "*"
-    "@types/validator" "*"
 
 "@types/serve-static@*":
   version "1.13.8"
@@ -399,11 +352,6 @@
   integrity sha1-Yw15tNgsc+BD5D/3d6nKmNRXyrc=
   dependencies:
     "@types/superagent" "*"
-
-"@types/validator@*":
-  version "13.1.1"
-  resolved "https://registry.npm.taobao.org/@types/validator/download/@types/validator-13.1.1.tgz#8d220ae4851a1e745764c7ca72294b6d46aeb533"
-  integrity sha1-jSIK5IUaHnRXZMfKcilLbUautTM=
 
 "@typescript-eslint/eslint-plugin@^4.7.0":
   version "4.9.0"
@@ -752,6 +700,11 @@ cls-bluebird@^2.1.0:
     is-bluebird "^1.0.2"
     shimmer "^1.1.0"
 
+cluster-key-slot@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/cluster-key-slot/-/cluster-key-slot-1.1.0.tgz#30474b2a981fb12172695833052bc0d01336d10d"
+  integrity sha512-2Nii8p3RwAPiFwsnZvukotvow2rIHM+yQ6ZcBXGHdniadkYGZYiGmkHJIbZPIV9nfv7m/U1IPMVVcAhoWFeklw==
+
 co-body@^6.0.0:
   version "6.1.0"
   resolved "https://registry.npm.taobao.org/co-body/download/co-body-6.1.0.tgz#d87a8efc3564f9bfe3aced8ef5cd04c7a8766547"
@@ -985,7 +938,7 @@ delegates@^1.0.0:
   resolved "https://registry.npm.taobao.org/delegates/download/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
   integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
 
-denque@^1.4.1:
+denque@^1.1.0, denque@^1.4.1:
   version "1.4.1"
   resolved "https://registry.npm.taobao.org/denque/download/denque-1.4.1.tgz#6744ff7641c148c3f8a69c307e51235c1f4a37cf"
   integrity sha1-Z0T/dkHBSMP4ppwwflEjXB9KN88=
@@ -1560,6 +1513,22 @@ inherits@2.0.3:
   resolved "https://registry.npm.taobao.org/inherits/download/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
+ioredis@^4.17.1:
+  version "4.19.2"
+  resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-4.19.2.tgz#e3eab394c653cea5aea07c0c784d8c772dce8801"
+  integrity sha512-SZSIwMrbd96b7rJvJwyTWSP6XQ0m1kAIIqBnwglJKrIJ6na7TeY4F2EV2vDY0xm/fLrUY8cEg81dR7kVFt2sKA==
+  dependencies:
+    cluster-key-slot "^1.1.0"
+    debug "^4.1.1"
+    denque "^1.1.0"
+    lodash.defaults "^4.2.0"
+    lodash.flatten "^4.4.0"
+    p-map "^2.1.0"
+    redis-commands "1.6.0"
+    redis-errors "^1.2.0"
+    redis-parser "^3.0.0"
+    standard-as-callback "^2.0.1"
+
 is-arrayish@^0.2.1:
   version "0.2.1"
   resolved "https://registry.npm.taobao.org/is-arrayish/download/is-arrayish-0.2.1.tgz#77c99840527aa8ecb1a8ba697b80645a7a926a9d"
@@ -1742,13 +1711,13 @@ koa-static@^5.0.0:
     debug "^3.1.0"
     koa-send "^5.0.0"
 
-koa2-ratelimit@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.npm.taobao.org/koa2-ratelimit/download/koa2-ratelimit-0.9.0.tgz#94bb20f05edab3fba7f4cf99956c3be138554a5c"
-  integrity sha1-lLsg8F7as/un9M+ZlWw74ThVSlw=
+"koa2-ratelimit@github:CaoMeiYouRen/koa2-ratelimit":
+  version "0.9.1"
+  uid "7887643cfdaa0bc8621a8d5ba2ececc0ba545267"
+  resolved "https://codeload.github.com/CaoMeiYouRen/koa2-ratelimit/tar.gz/7887643cfdaa0bc8621a8d5ba2ececc0ba545267"
   dependencies:
+    ioredis "^4.17.1"
     mongoose "^5.5.13"
-    promise-redis "0.0.5"
     sequelize "^5.8.7"
 
 koa@^2.13.0:
@@ -1813,6 +1782,16 @@ locate-path@^6.0.0:
   integrity sha1-VTIeswn+u8WcSAHZMackUqaB0oY=
   dependencies:
     p-locate "^5.0.0"
+
+lodash.defaults@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.defaults/-/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
+  integrity sha1-0JF4cW/+pN3p5ft7N/bwgCJ0WAw=
+
+lodash.flatten@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.flatten/-/lodash.flatten-4.4.0.tgz#f31c22225a9632d2bbf8e4addbef240aa765a61f"
+  integrity sha1-8xwiIlqWMtK7+OSt2+8kCqdlph8=
 
 lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20:
   version "4.17.20"
@@ -2013,7 +1992,7 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.npm.taobao.org/mongoose-legacy-pluralize/download/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=
 
-mongoose@^5.11.4, mongoose@^5.5.13:
+mongoose@^5.5.13:
   version "5.11.4"
   resolved "https://registry.npm.taobao.org/mongoose/download/mongoose-5.11.4.tgz#26c6be85bee47446570281f90331762751d8b995"
   integrity sha1-Jsa+hb7kdEZXAoH5AzF2J1HYuZU=
@@ -2156,6 +2135,11 @@ p-locate@^5.0.0:
   dependencies:
     p-limit "^3.0.2"
 
+p-map@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/p-map/-/p-map-2.1.0.tgz#310928feef9c9ecc65b68b17693018a665cea175"
+  integrity sha512-y3b8Kpd8OAN444hxfBbFfj1FY/RjtTd8tzYwhUqNYXx0fXx2iX4maP4Qr6qhIKbQXI02wTLAda4fYUbDagTUFw==
+
 p-try@^2.0.0:
   version "2.2.0"
   resolved "https://registry.npm.taobao.org/p-try/download/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
@@ -2277,14 +2261,6 @@ progress@^2.0.0:
   resolved "https://registry.npm.taobao.org/progress/download/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha1-foz42PW48jnBvGi+tOt4Vn1XLvg=
 
-promise-redis@0.0.5:
-  version "0.0.5"
-  resolved "https://registry.npm.taobao.org/promise-redis/download/promise-redis-0.0.5.tgz#3e3ce2aad912e927c96a6eced8d1b0f982666609"
-  integrity sha1-PjziqtkS6SfJam7O2NGw+YJmZgk=
-  dependencies:
-    redis "*"
-    redis-commands "*"
-
 punycode@^2.1.0:
   version "2.1.1"
   resolved "https://registry.npm.taobao.org/punycode/download/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
@@ -2375,10 +2351,10 @@ redent@^1.0.0:
     indent-string "^2.1.0"
     strip-indent "^1.0.1"
 
-redis-commands@*, redis-commands@^1.5.0:
+redis-commands@1.6.0:
   version "1.6.0"
-  resolved "https://registry.npm.taobao.org/redis-commands/download/redis-commands-1.6.0.tgz?cache=0&sync_timestamp=1595992185025&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fredis-commands%2Fdownload%2Fredis-commands-1.6.0.tgz#36d4ca42ae9ed29815cdb30ad9f97982eba1ce23"
-  integrity sha1-NtTKQq6e0pgVzbMK2fl5guuhziM=
+  resolved "https://registry.yarnpkg.com/redis-commands/-/redis-commands-1.6.0.tgz#36d4ca42ae9ed29815cdb30ad9f97982eba1ce23"
+  integrity sha512-2jnZ0IkjZxvguITjFTrGiLyzQZcTvaw8DAaCXxZq/dsHXz7KfMQ3OUJy7Tz9vnRtZRVz6VRCPDvruvU8Ts44wQ==
 
 redis-errors@^1.0.0, redis-errors@^1.2.0:
   version "1.2.0"
@@ -2391,16 +2367,6 @@ redis-parser@^3.0.0:
   integrity sha1-tm2CjNyv5rS4pCin3vTGvKwxyLQ=
   dependencies:
     redis-errors "^1.0.0"
-
-redis@*:
-  version "3.0.2"
-  resolved "https://registry.npm.taobao.org/redis/download/redis-3.0.2.tgz#bd47067b8a4a3e6a2e556e57f71cc82c7360150a"
-  integrity sha1-vUcGe4pKPmouVW5X9xzILHNgFQo=
-  dependencies:
-    denque "^1.4.1"
-    redis-commands "^1.5.0"
-    redis-errors "^1.2.0"
-    redis-parser "^3.0.0"
 
 regexp-clone@1.0.0, regexp-clone@^1.0.0:
   version "1.0.0"
@@ -2741,6 +2707,11 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/sprintf-js/download/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
+
+standard-as-callback@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/standard-as-callback/-/standard-as-callback-2.0.1.tgz#ed8bb25648e15831759b6023bdb87e6b60b38126"
+  integrity sha512-NQOxSeB8gOI5WjSaxjBgog2QFw55FV8TkS6Y07BiB3VJ8xNTvUYm0wl0s8ObgQ5NhdpnNfigMIKjgPESzgr4tg==
 
 "statuses@>= 1.4.0 < 2", "statuses@>= 1.5.0 < 2", statuses@^1.5.0:
   version "1.5.0"
