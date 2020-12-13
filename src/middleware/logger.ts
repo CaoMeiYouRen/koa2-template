@@ -1,6 +1,6 @@
 import path = require('path')
 import log4js = require('koa-log4')
-const logDir = path.join(__dirname, '../../logs')
+const logDir = path.resolve('logs')
 log4js.configure({
     appenders: {
         application: {
