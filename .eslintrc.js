@@ -16,15 +16,6 @@ module.exports = {
     ],
     plugins: [
     ],
-    parserOptions: {
-        parser: '@typescript-eslint/parser',
-        ecmaVersion: new Date().getFullYear(),
-        sourceType: 'module',
-        ecmaFeatures: {
-            modules: true,
-        },
-    },
-    parser: '@typescript-eslint/parser',
     rules: {
         'no-console': 0,
     },
