@@ -7,20 +7,26 @@ export async function catchError(ctx: Koa.Context, next: Koa.Next) {
     try {
         await next()
     } catch (e) {
-        let message: any = 'Unknown Error'
+        let message: string | undefined = 'Unknown Error'
         let statusCode = HttpStatusCode.INTERNAL_SERVER_ERROR
+        let stack: string | undefined
         if (e instanceof HttpError) {
             message = e.message
             statusCode = e.statusCode
         } else if (e instanceof Error) {
-            // 开发阶段打印堆栈信息，否则打印 message
-            message = IS_DEBUG ? e.stack : e.message
+            message = e.message
+            // 开发阶段打印堆栈信息
+            if (IS_DEBUG) {
+                stack = e.stack
+            }
+        } else if (typeof e === 'string') {
+            message = e
         }
         if (statusCode >= HttpStatusCode.INTERNAL_SERVER_ERROR) {
             Log.error(e)
             errorLogger.error(e)
         }
         ctx.status = statusCode
-        ctx.body = { message }
+        ctx.body = { message, stack }
     }
 }
