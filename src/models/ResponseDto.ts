@@ -1,10 +1,16 @@
 export class ResponseDto {
+    constructor(obj?: ResponseDto) {
+        if (obj) {
+            Object.assign(this, obj)
+        }
+    }
+
     /**
      * 响应状态码
      *
      * @type {number}
      */
-    statusCode: number
+    statusCode?: number
     /**
      * 消息说明
      *
@@ -17,6 +23,12 @@ export class ResponseDto {
      * @type {string}
      */
     error?: string
+    /**
+     * 错误堆栈
+     *
+     * @type {string}
+     */
+    stack?: string
     /**
      * 返回的数据
      *

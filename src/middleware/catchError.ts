@@ -1,5 +1,5 @@
 import Koa = require('koa')
-import { HttpError, HttpStatusCode } from '@/models'
+import { HttpError, HttpStatusCode, ResponseDto } from '@/models'
 import { IS_DEBUG } from '@/config'
 import { Log } from '@/utils'
 import { errorLogger } from './logger'
@@ -25,8 +25,14 @@ export async function catchError(ctx: Koa.Context, next: Koa.Next) {
         if (statusCode >= HttpStatusCode.INTERNAL_SERVER_ERROR) {
             Log.error(e)
             errorLogger.error(e)
+        } else {
+            Log.log(message)
         }
         ctx.status = statusCode
-        ctx.body = { message, stack }
+        ctx.body = new ResponseDto({
+            statusCode,
+            message,
+            stack,
+        })
     }
 }
