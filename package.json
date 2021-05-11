@@ -61,7 +61,7 @@
     "connect-timeout": "^1.9.0",
     "cookie-parser": "^1.4.5",
     "dayjs": "^1.10.4",
-    "dotenv": "^8.2.0",
+    "dotenv": "^9.0.2",
     "file-stream-rotator": "^0.5.7",
     "fs-extra": "^9.1.0",
     "http-proxy": "^1.18.1",
