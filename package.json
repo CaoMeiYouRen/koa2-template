@@ -63,7 +63,7 @@
     "dayjs": "^1.10.5",
     "dotenv": "^8.2.0",
     "file-stream-rotator": "^0.5.7",
-    "fs-extra": "^9.1.0",
+    "fs-extra": "^10.0.0",
     "http-proxy": "^1.18.1",
     "koa": "^2.13.1",
     "koa-bodyparser": "^4.3.0",
