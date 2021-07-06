@@ -40,7 +40,7 @@
     "@types/pidusage": "^2.0.1",
     "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
-    "@typescript-eslint/parser": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.2",
     "colors": "^1.4.0",
     "cross-env": "^7.0.2",
     "debug": "^4.3.2",
