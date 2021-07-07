@@ -24,7 +24,7 @@
     "@types/compression": "^1.7.1",
     "@types/debug": "^4.1.6",
     "@types/fs-extra": "^9.0.12",
-    "@types/http-proxy": "^1.17.6",
+    "@types/http-proxy": "^1.17.7",
     "@types/koa": "^2.13.4",
     "@types/koa-bodyparser": "^4.3.0",
     "@types/koa-cache-control": "^2.0.1",
