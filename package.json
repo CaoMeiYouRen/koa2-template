@@ -21,7 +21,7 @@
     "test:e2e": "mocha -r ts-node/register test/register.ts test/**/*.test.ts -R nyan -t 10000"
   },
   "devDependencies": {
-    "@types/compression": "^1.7.0",
+    "@types/compression": "^1.7.1",
     "@types/debug": "^4.1.6",
     "@types/fs-extra": "^9.0.11",
     "@types/http-proxy": "^1.17.6",
