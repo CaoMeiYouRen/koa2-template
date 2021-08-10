@@ -247,10 +247,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-cache-control@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@types/koa-cache-control/-/koa-cache-control-2.0.2.tgz#abad24183ed1829aa7021784604dd39bbb6a2367"
-  integrity sha512-gT68Az6uMjSKvbkYIQsbGSx+ZjQ15zPvhKduhGbKmgaUy4xI+vkhF8mRGKUvKZYENtA7hJSJslWnH+JnJp5xxg==
+"@types/koa-cache-control@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@types/koa-cache-control/-/koa-cache-control-2.0.3.tgz#c22dc912577fb9b642ed71c147f13f64d688ad33"
+  integrity sha512-qkLvPwELqZ6SdJwSulvU1wMQ9nNM14k2IDtS+zKUmb+AvYhQhzp8jV9QrFhb4RoHy1BkpEpOqoIxXg86hLsf/Q==
   dependencies:
     "@types/koa" "*"
 
