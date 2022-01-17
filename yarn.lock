@@ -1060,10 +1060,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-cmyr@^1.1.14:
-  version "1.1.14"
-  resolved "https://registry.yarnpkg.com/eslint-config-cmyr/-/eslint-config-cmyr-1.1.14.tgz#640630dee245ce6e58e9027f5b75db33b95bc5cb"
-  integrity sha512-P2FVdP+Tp444dSsUG7nef1s7fRktoaoK/arZ9ufhc8xWSZLB2UhLf3zwUkihMNebdpYIr5HkXTh1iZddBzkkJw==
+eslint-config-cmyr@^1.1.16:
+  version "1.1.16"
+  resolved "https://registry.yarnpkg.com/eslint-config-cmyr/-/eslint-config-cmyr-1.1.16.tgz#1011908af2bc646002eb7c5262c992ef7dc710d8"
+  integrity sha512-/evvYW1SYjwzRKjCVXZKLNoLvq5xWEOKQF6FpAFL0d/zakx1Bbv3Yg09axJ3ozBZ5PZhvvsOmWt2CbL+q8al7w==
 
 eslint-scope@^5.1.1:
   version "5.1.1"
