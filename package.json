@@ -30,7 +30,7 @@
     "@types/koa-cache-control": "^2.0.3",
     "@types/koa-log4": "^2.3.3",
     "@types/koa-static": "^4.0.2",
-    "@types/koa__cors": "^4.0.0",
+    "@types/koa__cors": "^4.0.1",
     "@types/koa__router": "^8.0.11",
     "@types/lodash": "^4.14.198",
     "@types/mocha": "^10.0.1",
