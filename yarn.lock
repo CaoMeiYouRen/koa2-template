@@ -290,10 +290,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-log4@^2.3.3":
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/@types/koa-log4/-/koa-log4-2.3.3.tgz#d90ac2ff6245b10510a87fed4313a984e2aa05b6"
-  integrity sha512-gAQ41czmdp9qtF2/QRxqrk23jj2PEmXI7rfYV1Hnv8O0dDcGLJPtAamu/kXIjc850dWT6yow1xH0LE3/6WzgCQ==
+"@types/koa-log4@^2.3.4":
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/@types/koa-log4/-/koa-log4-2.3.4.tgz#232af25be1249920b49b48a7cfe34587f5b3008d"
+  integrity sha512-MoGR1syKl/QUkhK4GjV8ZxqutRILQfMhrSrp0i2VJUQ+PEF7DeueeQEMbhphJCOYNlaUAZui+mP4iwGshOPi6g==
   dependencies:
     "@types/koa" "*"
     log4js "^3.0.0"
