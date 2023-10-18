@@ -398,10 +398,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.32.tgz#90c5c4a8d72bbbfe53033f122341343249183448"
   integrity sha512-/Ctrftx/zp4m8JOujM5ZhwzlWLx22nbQJiVqz8/zE15gOeEW+uly3FSX4fGFpcfEvFzXcMCJwq9lGVWgyARXhg==
 
-"@types/pidusage@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@types/pidusage/-/pidusage-2.0.3.tgz#5cd2405e0a3a8f83ef045bd8eb361b1a70df4f47"
-  integrity sha512-ql+nedz/Int5Dnzo3B30wQQ3N5L6iBnxFTAXqsWymqwS82VJlMNry8X2qyokchhn8ccrzJBZAIHz8Qp7iqPaRw==
+"@types/pidusage@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@types/pidusage/-/pidusage-2.0.4.tgz#0538aea04cdf2a3b439418d2acd2f319c52dcd25"
+  integrity sha512-yku7awugpbqBz+MjVFzDkJIW8eaN9jySnotHxYfOY5dqnsjRgvG4HQFMQ7wtEaGjk+WjJ8R3Ll3iaaZtVKY3JA==
 
 "@types/qs@*":
   version "6.9.5"
