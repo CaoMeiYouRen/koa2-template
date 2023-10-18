@@ -302,10 +302,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-log4@^2.3.4":
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/@types/koa-log4/-/koa-log4-2.3.4.tgz#232af25be1249920b49b48a7cfe34587f5b3008d"
-  integrity sha512-MoGR1syKl/QUkhK4GjV8ZxqutRILQfMhrSrp0i2VJUQ+PEF7DeueeQEMbhphJCOYNlaUAZui+mP4iwGshOPi6g==
+"@types/koa-log4@^2.3.5":
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/@types/koa-log4/-/koa-log4-2.3.5.tgz#62464f0c449beddbacf0a72ad64f8c1af1d2badb"
+  integrity sha512-93OEYNdplLYt6cYQLYgqrK+7ieCApUVUmN20gXCyoVyp3XWya5dyUD3tTDeGH0OI4/2Gt/OIzlqsUCnLGPQeBg==
   dependencies:
     "@types/koa" "*"
     log4js "^3.0.0"
