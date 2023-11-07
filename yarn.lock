@@ -288,10 +288,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-cache-control@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@types/koa-cache-control/-/koa-cache-control-2.0.4.tgz#ee741e765795476e6a02ad2e916310b732fe4e21"
-  integrity sha512-LRLMeb0y2b3IaUxqeqEIL0ftGlIiGlAVu62H661nBaL/nyzBjXZtpqksGqlDRvhzZbDMWLxsgPZOzaRiQVr1Zw==
+"@types/koa-cache-control@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@types/koa-cache-control/-/koa-cache-control-2.0.5.tgz#70287facb0d15849291e1048fca05c90d0a02539"
+  integrity sha512-teKii7C0IWYlZ8057d6kSeJMWcZBn0DG/D92q0vEGML7vlAki0CX16bvtBMMUP44U7g3uSeO/t9BZcST1aFjig==
   dependencies:
     "@types/koa" "*"
 
