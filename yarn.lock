@@ -368,10 +368,10 @@
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-10.0.4.tgz#b5331955ebca216604691fd4fcd2dbdc2bd559a4"
   integrity sha512-xKU7bUjiFTIttpWaIZ9qvgg+22O1nmbA+HRxdlR+u6TWsGfmFdXrheJoK4fFxrHNVIOBDvDNKZG+LYBpMHpX3w==
 
-"@types/module-alias@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@types/module-alias/-/module-alias-2.0.3.tgz#c4b69db7d7e8d8063b8e6a92451373f102605c5d"
-  integrity sha512-P4nKOHbLwvzpPWA5rqJXEAvkIePPb4fNMaEzVU3qZp53NEg2buF9KaudA7BfduUd0b/M1+cM9w050WJ+sDHktw==
+"@types/module-alias@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@types/module-alias/-/module-alias-2.0.4.tgz#c6a784be6bc2ff5424889e23084ac001454d5f00"
+  integrity sha512-5+G/QXO/DvHZw60FjvbDzO4JmlD/nG5m2/vVGt25VN1eeP3w2bCoks1Wa7VuptMPM1TxJdx6RjO70N9Fw0nZPA==
 
 "@types/mongodb@^3.5.27":
   version "3.6.1"
