@@ -74,6 +74,6 @@
     "lodash": "^4.17.21",
     "module-alias": "^2.2.3",
     "pidusage": "^3.0.2",
-    "query-string": "^8.1.0"
+    "query-string": "^9.0.0"
   }
 }
